@@ -19,3 +19,7 @@ libraryDependencies <++= scalaVersion(v =>
 scalaSource in Compile := baseDirectory.value / "src"
 
 scalaSource in Test := baseDirectory.value / "test"
+
+javaSource in Compile := baseDirectory.value / "src"
+
+javaSource in Test := baseDirectory.value / "test"
